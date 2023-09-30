@@ -1,3 +1,4 @@
+// app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -13,10 +14,10 @@ import { HousingLocationComponent } from './housing-location/housing-location.co
   ],
   imports: [
     BrowserModule,
-
-   
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
