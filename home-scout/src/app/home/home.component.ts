@@ -2,6 +2,7 @@
 import { Component } from '@angular/core';
 
 import { HousingLocation } from '../housing-location';
+import { HousingLocationComponent } from '../housing-location/housing-location.component';
 
 
 @Component({
