@@ -1,3 +1,76 @@
+body {
+  overflow: hidden;
+}
+
+/* .card-img-top{
+  height: 200px;
+  width: 300px;
+
+} */
+
+ .card {
+  height: 200px;
+  width: 300px; 
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5); 
+
+ 
+
+
+} 
+
+
+
+
+.card-body{
+
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+ 
+}
+
+
+.custom-rounded-bottom {
+  border-radius: 0 0 8px 8px;
+}
+
+.custom-button {
+  margin-top: 1em;
+}
+.custom-button:hover {
+  background-color: #20b646; /* Change to the desired green color */
+  color: #fff; /* Change to the desired text color */
+  border-color: #20b646;
+}
+
+/* styles.css or your custom CSS file */
+.card-body h4,
+.card-body p,
+.card-body h6 {
+  line-height: 0.7; /* Adjust line height as needed */
+}
+
+.card-text-size{
+  margin-top: 1em;
+}
+
+.custom-card-spacing {
+  margin-bottom: 15em; /* Adjust the margin as needed */
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .results {
     display: grid;
     column-gap: 14px;
@@ -7,7 +80,7 @@
     justify-content: space-around;
   }
   
-  input[type="text"] {
+  /* input[type="text"] {
     border: solid 2px gray;
     padding: 10px;
     border-radius: 8px;
@@ -16,13 +89,13 @@
     width: 22%;
     margin-top: 15px;
     margin-left: 30px;
-  }
+  } */
   
   button {
     padding: 10px;
-    border: solid 2px blue; /* Change the border color to blue */
-    background: blue; /* Change the background color to blue */
-    color:whitesmoke;
+    border: solid 2px blue;
+    background: blue; 
+    color:rgb(255, 255, 255);
     border-radius: 7.5px;
   
   }
