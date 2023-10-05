@@ -36,16 +36,13 @@ export class HomeComponent {
   housingLocationList: HousingLocation[] = [
     {
       id: 0,
-      name: 'Acme Fresh Start Housing',
       salePrice: '$98,000',
+      size: '3 bds | 2 ba | 1,399 sqft - House for Sale',
       address: '123 Main Cir',
       city: 'Chicago',
       state: 'IL 76022',
-   
       photo: 'assets/testhouse.jpg',
-      availableUnits: 4,
-      wifi: true,
-      laundry: true
+      realtor: 'Keller Williams Elite'
     },
   
   

@@ -1,10 +1,11 @@
 <!-- Bootstrap card components -->
 <div class="card custom-border">
-    <img class="card-img-top" [src]="housingLocation.photo" alt="Exterior photo of {{ housingLocation.name }}">
+    <img class="card-img-top" [src]="housingLocation.photo" alt="Exterior photo of {{ housingLocation.address }}">
     <div class="card-body custom-rounded-bottom">
-      <h5 class="card-title">{{ housingLocation.name }}</h5> <!-- Use h5 for card title -->
       <h4 class="card-text">{{ housingLocation.salePrice }}</h4>
+      <p class="card-text">{{ housingLocation.size }} </p>
       <p class="card-text">{{ housingLocation.address }},  {{ housingLocation.city }}, {{ housingLocation.state }}</p>
+      <p class="card-text">{{ housingLocation.realtor }} </p>
 
             <button type="button" class="btn btn-primary custom-button"
             style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
