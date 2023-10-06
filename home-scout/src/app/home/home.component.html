@@ -1,10 +1,10 @@
-<!-- passing each housing location item into the housing-location component.html -->
+
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
     <a class="navbar-brand" href="#">
-      <img src="assets/logo.png"  width="30" height="24" class="d-inline-block align-text-top">
+      <img src="assets/logo.png"  width="240" height="40" class="d-inline-block align-text-top">
    
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,11 +16,11 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Watch Lists</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+                    WatchLists
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -28,9 +28,6 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -47,24 +44,30 @@
 
 
 
+
+<!-- passing each housing location item into the housing-location component.html -->
 <div class="row justify-content-center">
   <ng-container *ngFor="let housingLocation of housingLocationList; let i = index">
     <div class="col-lg-3 col-md-6">
-      <div class="card custom-border custom-card-spacing mx-auto"> <!-- Apply mx-auto class for centering -->
+      <div class="card custom-border custom-card-spacing mx-auto"> 
         <img class="card-img-top" [src]="housingLocation.photo" alt="Exterior photo of {{ housingLocation.address }}">
         <div class="card-body custom-rounded-bottom">
           <h4 class="card-text">{{ housingLocation.salePrice }}</h4>
           <p class="card-text-size">{{ housingLocation.size }}</p>
           <p class="card-text">{{ housingLocation.address }}, {{ housingLocation.city }}, {{ housingLocation.state }}</p>
           <h6>{{ housingLocation.realtor }}</h6>
-          <button type="button" class="btn btn-primary custom-button"
-            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+          <a href="#">Details</a>
+
+  <button type="button" class="btn btn-primary custom-button"
+          style="--bs-btn-padding-y: .10rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .7rem; margin-left: 17px;">
             Add to Watch List
-          </button>
+  </button>
         </div>
       </div>
     </div>
-    <!-- Add a new row for every 3 cards -->
+ 
     <div class="w-100 d-none d-lg-block" *ngIf="(i + 1) % 3 === 0"></div>
   </ng-container>
 </div>
+
+
