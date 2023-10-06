@@ -7,4 +7,5 @@ export interface HousingLocation {
     state: string;
     photo: string;
     realtor: string;
+    status: string;
 }

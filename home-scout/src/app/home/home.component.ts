@@ -16,8 +16,10 @@ export class HomeComponent {
       city: 'Chicago',
       state: 'IL 76022',
       photo: 'assets/testhouse.jpg',
-      realtor: 'Keller Williams Elite'
+      realtor: 'Keller Williams Elite',
+      status: 'For Sale'
     },
+    
     {
       id: 1,
       salePrice: '$98,000',
@@ -26,7 +28,8 @@ export class HomeComponent {
       city: 'Chicago',
       state: 'IL 76022',
       photo: 'assets/testhouse.jpg',
-      realtor: 'Keller Williams Elite'
+      realtor: 'Keller Williams Elite',
+      status: 'For Sale'
     },
 
     {
@@ -37,7 +40,8 @@ export class HomeComponent {
       city: 'Chicago',
       state: 'IL 76022',
       photo: 'assets/testhouse.jpg',
-      realtor: 'Keller Williams Elite'
+      realtor: 'Keller Williams Elite',
+      status: 'For Sale'
     },
 
     {
@@ -48,7 +52,8 @@ export class HomeComponent {
       city: 'Chicago',
       state: 'IL 76022',
       photo: 'assets/testhouse.jpg',
-      realtor: 'Keller Williams Elite'
+      realtor: 'Keller Williams Elite',
+      status: 'For Sale'
     },
 
     {
@@ -59,7 +64,8 @@ export class HomeComponent {
       city: 'Chicago',
       state: 'IL 76022',
       photo: 'assets/testhouse.jpg',
-      realtor: 'Keller Williams Elite'
+      realtor: 'Keller Williams Elite',
+      status: 'For Sale'
     },
 
     {
@@ -70,7 +76,8 @@ export class HomeComponent {
       city: 'Chicago',
       state: 'IL 76022',
       photo: 'assets/testhouse.jpg',
-      realtor: 'Keller Williams Elite'
+      realtor: 'Keller Williams Elite',
+      status: 'For Sale'
     },
     
   ];

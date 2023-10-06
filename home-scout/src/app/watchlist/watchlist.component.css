@@ -1,0 +1,23 @@
+
+.list-img{
+    height: 80px;
+  
+}
+
+table{
+    /* border-style: dashed; */
+    border-spacing: 0;
+    width: 76em;
+    margin-left: 4em;
+    border-color: rgb(200, 199, 199);
+}
+
+.table-data {
+    /* padding: 2em; */
+    padding-top: 2em;
+ 
+}
+
+.table-head {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
