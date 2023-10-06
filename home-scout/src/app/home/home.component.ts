@@ -1,12 +1,19 @@
 import { Component } from '@angular/core';
 import { HousingLocation } from '../housing-location';
 
+
+
+
+
 @Component({
   selector: 'app-home',
   styleUrls: ['./home.component.css'],
   templateUrl: './home.component.html', // Specify the path to your HTML template file
 })
+
 export class HomeComponent {
+
+
   housingLocationList: HousingLocation[] = [
     {
       id: 0,

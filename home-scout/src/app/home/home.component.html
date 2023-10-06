@@ -71,3 +71,19 @@
 </div>
 
 
+<ng-template #modalContent let-modal>
+  <!-- Modal content goes here -->
+  <div class="modal-header">
+    <h4 class="modal-title">Details</h4>
+    <button type="button" class="close" (click)="modal.dismiss()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <!-- Add the details you want to display in the modal here -->
+    <!-- For example: housingLocation.address, housingLocation.size, etc. -->
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="modal.close()">Close</button>
+  </div>
+</ng-template>

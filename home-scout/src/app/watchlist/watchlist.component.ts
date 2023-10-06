@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 
+
 @Component({
   selector: 'app-watchlist',
   templateUrl: './watchlist.component.html',
@@ -8,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class WatchlistComponent {
 
-}
+  }
+
